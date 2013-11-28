@@ -14,21 +14,9 @@
 		F798A6DC1846BF650092A93E /* PLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F798A6DB1846BF650092A93E /* PLAppDelegate.m */; };
 		F798A6DF1846BF650092A93E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F798A6DD1846BF650092A93E /* MainMenu.xib */; };
 		F798A6E11846BF650092A93E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F798A6E01846BF650092A93E /* Images.xcassets */; };
-		F798A6E81846BF650092A93E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F798A6E71846BF650092A93E /* XCTest.framework */; };
-		F798A6E91846BF650092A93E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F798A6C81846BF650092A93E /* Cocoa.framework */; };
-		F798A6F11846BF650092A93E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F798A6EF1846BF650092A93E /* InfoPlist.strings */; };
-		F798A6F31846BF650092A93E /* Anima_OpenGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F798A6F21846BF650092A93E /* Anima_OpenGLTests.m */; };
+		F798A7001846C1080092A93E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F798A6FE1846C1080092A93E /* CoreAudio.framework */; };
+		F798A7011846C1080092A93E /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F798A6FF1846C1080092A93E /* CoreAudioKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F798A6EA1846BF650092A93E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F798A6BD1846BF650092A93E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F798A6C41846BF650092A93E;
-			remoteInfo = "Anima-OpenGL";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F798A6C51846BF650092A93E /* Anima-OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anima-OpenGL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,11 +33,10 @@
 		F798A6DB1846BF650092A93E /* PLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLAppDelegate.m; sourceTree = "<group>"; };
 		F798A6DE1846BF650092A93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F798A6E01846BF650092A93E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F798A6E61846BF650092A93E /* Anima-OpenGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anima-OpenGLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F798A6E71846BF650092A93E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F798A6EE1846BF650092A93E /* Anima-OpenGLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Anima-OpenGLTests-Info.plist"; sourceTree = "<group>"; };
-		F798A6F01846BF650092A93E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F798A6F21846BF650092A93E /* Anima_OpenGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Anima_OpenGLTests.m; sourceTree = "<group>"; };
+		F798A6FC1846BFE90092A93E /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		F798A6FE1846C1080092A93E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		F798A6FF1846C1080092A93E /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,16 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F798A7001846C1080092A93E /* CoreAudio.framework in Frameworks */,
+				F798A7011846C1080092A93E /* CoreAudioKit.framework in Frameworks */,
 				F798A6C91846BF650092A93E /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F798A6E31846BF650092A93E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F798A6E91846BF650092A93E /* Cocoa.framework in Frameworks */,
-				F798A6E81846BF650092A93E /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				F798A6CE1846BF650092A93E /* Anima-OpenGL */,
-				F798A6EC1846BF650092A93E /* Anima-OpenGLTests */,
 				F798A6C71846BF650092A93E /* Frameworks */,
 				F798A6C61846BF650092A93E /* Products */,
 			);
@@ -87,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				F798A6C51846BF650092A93E /* Anima-OpenGL.app */,
-				F798A6E61846BF650092A93E /* Anima-OpenGLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +73,9 @@
 		F798A6C71846BF650092A93E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F798A6FE1846C1080092A93E /* CoreAudio.framework */,
+				F798A6FF1846C1080092A93E /* CoreAudioKit.framework */,
+				F798A6FC1846BFE90092A93E /* QTKit.framework */,
 				F798A6C81846BF650092A93E /* Cocoa.framework */,
 				F798A6E71846BF650092A93E /* XCTest.framework */,
 				F798A6CA1846BF650092A93E /* Other Frameworks */,
@@ -136,24 +117,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F798A6EC1846BF650092A93E /* Anima-OpenGLTests */ = {
-			isa = PBXGroup;
-			children = (
-				F798A6F21846BF650092A93E /* Anima_OpenGLTests.m */,
-				F798A6ED1846BF650092A93E /* Supporting Files */,
-			);
-			path = "Anima-OpenGLTests";
-			sourceTree = "<group>";
-		};
-		F798A6ED1846BF650092A93E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F798A6EE1846BF650092A93E /* Anima-OpenGLTests-Info.plist */,
-				F798A6EF1846BF650092A93E /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,24 +137,6 @@
 			productReference = F798A6C51846BF650092A93E /* Anima-OpenGL.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F798A6E51846BF650092A93E /* Anima-OpenGLTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F798A6F91846BF650092A93E /* Build configuration list for PBXNativeTarget "Anima-OpenGLTests" */;
-			buildPhases = (
-				F798A6E21846BF650092A93E /* Sources */,
-				F798A6E31846BF650092A93E /* Frameworks */,
-				F798A6E41846BF650092A93E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F798A6EB1846BF650092A93E /* PBXTargetDependency */,
-			);
-			name = "Anima-OpenGLTests";
-			productName = "Anima-OpenGLTests";
-			productReference = F798A6E61846BF650092A93E /* Anima-OpenGLTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,11 +146,6 @@
 				CLASSPREFIX = PL;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Pivotal Labs";
-				TargetAttributes = {
-					F798A6E51846BF650092A93E = {
-						TestTargetID = F798A6C41846BF650092A93E;
-					};
-				};
 			};
 			buildConfigurationList = F798A6C01846BF650092A93E /* Build configuration list for PBXProject "Anima-OpenGL" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,7 +161,6 @@
 			projectRoot = "";
 			targets = (
 				F798A6C41846BF650092A93E /* Anima-OpenGL */,
-				F798A6E51846BF650092A93E /* Anima-OpenGLTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,14 +177,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F798A6E41846BF650092A93E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F798A6F11846BF650092A93E /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,23 +189,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F798A6E21846BF650092A93E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F798A6F31846BF650092A93E /* Anima_OpenGLTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F798A6EB1846BF650092A93E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F798A6C41846BF650092A93E /* Anima-OpenGL */;
-			targetProxy = F798A6EA1846BF650092A93E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F798A6D11846BF650092A93E /* InfoPlist.strings */ = {
@@ -299,14 +214,6 @@
 				F798A6DE1846BF650092A93E /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		F798A6EF1846BF650092A93E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F798A6F01846BF650092A93E /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -406,46 +313,6 @@
 			};
 			name = Release;
 		};
-		F798A6FA1846BF650092A93E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Anima-OpenGL.app/Contents/MacOS/Anima-OpenGL";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Anima-OpenGL/Anima-OpenGL-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Anima-OpenGLTests/Anima-OpenGLTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F798A6FB1846BF650092A93E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Anima-OpenGL.app/Contents/MacOS/Anima-OpenGL";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Anima-OpenGL/Anima-OpenGL-Prefix.pch";
-				INFOPLIST_FILE = "Anima-OpenGLTests/Anima-OpenGLTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,14 +330,6 @@
 			buildConfigurations = (
 				F798A6F71846BF650092A93E /* Debug */,
 				F798A6F81846BF650092A93E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F798A6F91846BF650092A93E /* Build configuration list for PBXNativeTarget "Anima-OpenGLTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F798A6FA1846BF650092A93E /* Debug */,
-				F798A6FB1846BF650092A93E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
