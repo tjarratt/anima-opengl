@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F798A6C91846BF650092A93E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F798A6C81846BF650092A93E /* Cocoa.framework */; };
+		F798A6D31846BF650092A93E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F798A6D11846BF650092A93E /* InfoPlist.strings */; };
+		F798A6D51846BF650092A93E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F798A6D41846BF650092A93E /* main.m */; };
+		F798A6D91846BF650092A93E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F798A6D71846BF650092A93E /* Credits.rtf */; };
+		F798A6DC1846BF650092A93E /* PLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F798A6DB1846BF650092A93E /* PLAppDelegate.m */; };
+		F798A6DF1846BF650092A93E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F798A6DD1846BF650092A93E /* MainMenu.xib */; };
+		F798A6E11846BF650092A93E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F798A6E01846BF650092A93E /* Images.xcassets */; };
+		F798A6E81846BF650092A93E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F798A6E71846BF650092A93E /* XCTest.framework */; };
+		F798A6E91846BF650092A93E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F798A6C81846BF650092A93E /* Cocoa.framework */; };
+		F798A6F11846BF650092A93E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F798A6EF1846BF650092A93E /* InfoPlist.strings */; };
+		F798A6F31846BF650092A93E /* Anima_OpenGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F798A6F21846BF650092A93E /* Anima_OpenGLTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F798A6EA1846BF650092A93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F798A6BD1846BF650092A93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F798A6C41846BF650092A93E;
+			remoteInfo = "Anima-OpenGL";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F798A6C51846BF650092A93E /* Anima-OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anima-OpenGL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F798A6C81846BF650092A93E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F798A6CB1846BF650092A93E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F798A6CC1846BF650092A93E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F798A6CD1846BF650092A93E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F798A6D01846BF650092A93E /* Anima-OpenGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Anima-OpenGL-Info.plist"; sourceTree = "<group>"; };
+		F798A6D21846BF650092A93E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F798A6D41846BF650092A93E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F798A6D61846BF650092A93E /* Anima-OpenGL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Anima-OpenGL-Prefix.pch"; sourceTree = "<group>"; };
+		F798A6D81846BF650092A93E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F798A6DA1846BF650092A93E /* PLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLAppDelegate.h; sourceTree = "<group>"; };
+		F798A6DB1846BF650092A93E /* PLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLAppDelegate.m; sourceTree = "<group>"; };
+		F798A6DE1846BF650092A93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F798A6E01846BF650092A93E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F798A6E61846BF650092A93E /* Anima-OpenGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anima-OpenGLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F798A6E71846BF650092A93E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F798A6EE1846BF650092A93E /* Anima-OpenGLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Anima-OpenGLTests-Info.plist"; sourceTree = "<group>"; };
+		F798A6F01846BF650092A93E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F798A6F21846BF650092A93E /* Anima_OpenGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Anima_OpenGLTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F798A6C21846BF650092A93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F798A6C91846BF650092A93E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F798A6E31846BF650092A93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F798A6E91846BF650092A93E /* Cocoa.framework in Frameworks */,
+				F798A6E81846BF650092A93E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F798A6BC1846BF650092A93E = {
+			isa = PBXGroup;
+			children = (
+				F798A6CE1846BF650092A93E /* Anima-OpenGL */,
+				F798A6EC1846BF650092A93E /* Anima-OpenGLTests */,
+				F798A6C71846BF650092A93E /* Frameworks */,
+				F798A6C61846BF650092A93E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F798A6C61846BF650092A93E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F798A6C51846BF650092A93E /* Anima-OpenGL.app */,
+				F798A6E61846BF650092A93E /* Anima-OpenGLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F798A6C71846BF650092A93E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F798A6C81846BF650092A93E /* Cocoa.framework */,
+				F798A6E71846BF650092A93E /* XCTest.framework */,
+				F798A6CA1846BF650092A93E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F798A6CA1846BF650092A93E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F798A6CB1846BF650092A93E /* AppKit.framework */,
+				F798A6CC1846BF650092A93E /* CoreData.framework */,
+				F798A6CD1846BF650092A93E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F798A6CE1846BF650092A93E /* Anima-OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				F798A6DA1846BF650092A93E /* PLAppDelegate.h */,
+				F798A6DB1846BF650092A93E /* PLAppDelegate.m */,
+				F798A6DD1846BF650092A93E /* MainMenu.xib */,
+				F798A6E01846BF650092A93E /* Images.xcassets */,
+				F798A6CF1846BF650092A93E /* Supporting Files */,
+			);
+			path = "Anima-OpenGL";
+			sourceTree = "<group>";
+		};
+		F798A6CF1846BF650092A93E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F798A6D01846BF650092A93E /* Anima-OpenGL-Info.plist */,
+				F798A6D11846BF650092A93E /* InfoPlist.strings */,
+				F798A6D41846BF650092A93E /* main.m */,
+				F798A6D61846BF650092A93E /* Anima-OpenGL-Prefix.pch */,
+				F798A6D71846BF650092A93E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F798A6EC1846BF650092A93E /* Anima-OpenGLTests */ = {
+			isa = PBXGroup;
+			children = (
+				F798A6F21846BF650092A93E /* Anima_OpenGLTests.m */,
+				F798A6ED1846BF650092A93E /* Supporting Files */,
+			);
+			path = "Anima-OpenGLTests";
+			sourceTree = "<group>";
+		};
+		F798A6ED1846BF650092A93E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F798A6EE1846BF650092A93E /* Anima-OpenGLTests-Info.plist */,
+				F798A6EF1846BF650092A93E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F798A6C41846BF650092A93E /* Anima-OpenGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F798A6F61846BF650092A93E /* Build configuration list for PBXNativeTarget "Anima-OpenGL" */;
+			buildPhases = (
+				F798A6C11846BF650092A93E /* Sources */,
+				F798A6C21846BF650092A93E /* Frameworks */,
+				F798A6C31846BF650092A93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anima-OpenGL";
+			productName = "Anima-OpenGL";
+			productReference = F798A6C51846BF650092A93E /* Anima-OpenGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F798A6E51846BF650092A93E /* Anima-OpenGLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F798A6F91846BF650092A93E /* Build configuration list for PBXNativeTarget "Anima-OpenGLTests" */;
+			buildPhases = (
+				F798A6E21846BF650092A93E /* Sources */,
+				F798A6E31846BF650092A93E /* Frameworks */,
+				F798A6E41846BF650092A93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F798A6EB1846BF650092A93E /* PBXTargetDependency */,
+			);
+			name = "Anima-OpenGLTests";
+			productName = "Anima-OpenGLTests";
+			productReference = F798A6E61846BF650092A93E /* Anima-OpenGLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F798A6BD1846BF650092A93E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pivotal Labs";
+				TargetAttributes = {
+					F798A6E51846BF650092A93E = {
+						TestTargetID = F798A6C41846BF650092A93E;
+					};
+				};
+			};
+			buildConfigurationList = F798A6C01846BF650092A93E /* Build configuration list for PBXProject "Anima-OpenGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F798A6BC1846BF650092A93E;
+			productRefGroup = F798A6C61846BF650092A93E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F798A6C41846BF650092A93E /* Anima-OpenGL */,
+				F798A6E51846BF650092A93E /* Anima-OpenGLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F798A6C31846BF650092A93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F798A6D31846BF650092A93E /* InfoPlist.strings in Resources */,
+				F798A6E11846BF650092A93E /* Images.xcassets in Resources */,
+				F798A6D91846BF650092A93E /* Credits.rtf in Resources */,
+				F798A6DF1846BF650092A93E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F798A6E41846BF650092A93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F798A6F11846BF650092A93E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F798A6C11846BF650092A93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F798A6DC1846BF650092A93E /* PLAppDelegate.m in Sources */,
+				F798A6D51846BF650092A93E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F798A6E21846BF650092A93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F798A6F31846BF650092A93E /* Anima_OpenGLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F798A6EB1846BF650092A93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F798A6C41846BF650092A93E /* Anima-OpenGL */;
+			targetProxy = F798A6EA1846BF650092A93E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F798A6D11846BF650092A93E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F798A6D21846BF650092A93E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F798A6D71846BF650092A93E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F798A6D81846BF650092A93E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F798A6DD1846BF650092A93E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F798A6DE1846BF650092A93E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F798A6EF1846BF650092A93E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F798A6F01846BF650092A93E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F798A6F41846BF650092A93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F798A6F51846BF650092A93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F798A6F71846BF650092A93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anima-OpenGL/Anima-OpenGL-Prefix.pch";
+				INFOPLIST_FILE = "Anima-OpenGL/Anima-OpenGL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F798A6F81846BF650092A93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anima-OpenGL/Anima-OpenGL-Prefix.pch";
+				INFOPLIST_FILE = "Anima-OpenGL/Anima-OpenGL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F798A6FA1846BF650092A93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Anima-OpenGL.app/Contents/MacOS/Anima-OpenGL";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anima-OpenGL/Anima-OpenGL-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Anima-OpenGLTests/Anima-OpenGLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F798A6FB1846BF650092A93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Anima-OpenGL.app/Contents/MacOS/Anima-OpenGL";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anima-OpenGL/Anima-OpenGL-Prefix.pch";
+				INFOPLIST_FILE = "Anima-OpenGLTests/Anima-OpenGLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F798A6C01846BF650092A93E /* Build configuration list for PBXProject "Anima-OpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F798A6F41846BF650092A93E /* Debug */,
+				F798A6F51846BF650092A93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F798A6F61846BF650092A93E /* Build configuration list for PBXNativeTarget "Anima-OpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F798A6F71846BF650092A93E /* Debug */,
+				F798A6F81846BF650092A93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F798A6F91846BF650092A93E /* Build configuration list for PBXNativeTarget "Anima-OpenGLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F798A6FA1846BF650092A93E /* Debug */,
+				F798A6FB1846BF650092A93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F798A6BD1846BF650092A93E /* Project object */;
+}
